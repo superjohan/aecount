@@ -20,6 +20,7 @@ There are plenty of things one could do to improve Aecount. Here are a few ideas
 * Multiple counters
 * More color schemes
 * Saving to iCloud
+* Better sounds
 
 Misc
 ====
