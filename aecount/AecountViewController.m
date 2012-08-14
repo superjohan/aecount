@@ -53,27 +53,6 @@ const NSTimeInterval kDefaultAnimationTimeInterval = 0.2;
 
 @implementation AecountViewController
 
-@synthesize countLabel = _countLabel;
-@synthesize tapRecognizer = _tapRecognizer;
-@synthesize swipeRecognizer = _swipeRecognizer;
-@synthesize pinchRecognizer = _pinchRecognizer;
-@synthesize count = _count;
-@synthesize titleField = _titleField;
-@synthesize hideKeyboardButton = _hideKeyboardButton;
-@synthesize backgroundContainer = _backgroundContainer;
-@synthesize countManager = _countManager;
-@synthesize defaultCountLabelFrame = _defaultCountLabelFrame;
-@synthesize topView = _topView;
-@synthesize bottomView = _bottomView;
-@synthesize defaultTopViewFrame = _defaultTopViewFrame;
-@synthesize defaultBottomViewFrame = _defaultBottomViewFrame;
-@synthesize defaultTitleFieldFrame = _defaultTitleFieldFrame;
-@synthesize topShadow = _topShadow;
-@synthesize bottomShadow = _bottomShadow;
-@synthesize targetField = _targetField;
-@synthesize defaultTargetFieldFrame = _defaultTargetFieldFrame;
-@synthesize targetProgressView = _targetProgressView;
-
 #pragma mark - Private
 
 - (void)ae_updateCountLabel

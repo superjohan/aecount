@@ -14,9 +14,6 @@ NSString * const kAecountTargetCountKey = @"targetCount";
 
 @implementation AecountCountManager
 
-@synthesize count = _count;
-@synthesize targetCount = _targetCount;
-
 #pragma mark - Public
 
 - (NSInteger)count
