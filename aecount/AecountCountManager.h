@@ -11,8 +11,8 @@
 @interface AecountCountManager : NSObject
 
 @property (nonatomic, assign, readonly) NSInteger count;
-@property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, assign, readonly) NSInteger targetCount;
+@property (nonatomic, strong, readonly) NSString *title;
 
 - (void)saveCount:(NSInteger)count;
 - (void)saveTitle:(NSString *)title;

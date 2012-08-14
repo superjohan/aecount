@@ -15,25 +15,25 @@
 #import "SimpleAudioEngine.h"
 
 @interface AecountViewController ()
-@property (nonatomic, strong) IBOutlet UILabel *countLabel;
-@property (nonatomic, strong) UITapGestureRecognizer *tapRecognizer;
-@property (nonatomic, strong) UISwipeGestureRecognizer *swipeRecognizer;
-@property (nonatomic, strong) UIPinchGestureRecognizer *pinchRecognizer;
-@property (nonatomic, assign) NSInteger count;
-@property (nonatomic, strong) IBOutlet UITextField *titleField;
 @property (nonatomic, strong) IBOutlet UIButton *hideKeyboardButton;
+@property (nonatomic, strong) IBOutlet UIImageView *topShadow;
+@property (nonatomic, strong) IBOutlet UIImageView *bottomShadow;
+@property (nonatomic, strong) IBOutlet UILabel *countLabel;
+@property (nonatomic, strong) IBOutlet UITextField *titleField;
+@property (nonatomic, strong) IBOutlet UITextField *targetField;
 @property (nonatomic, strong) IBOutlet UIView *backgroundContainer;
 @property (nonatomic, strong) IBOutlet UIView *topView;
 @property (nonatomic, strong) IBOutlet UIView *bottomView;
+@property (nonatomic, strong) IBOutlet UIView *targetProgressView;
 @property (nonatomic, assign) CGRect defaultCountLabelFrame;
 @property (nonatomic, assign) CGRect defaultTopViewFrame;
 @property (nonatomic, assign) CGRect defaultBottomViewFrame;
 @property (nonatomic, assign) CGRect defaultTitleFieldFrame;
-@property (nonatomic, strong) IBOutlet UIImageView *topShadow;
-@property (nonatomic, strong) IBOutlet UIImageView *bottomShadow;
-@property (nonatomic, strong) IBOutlet UITextField *targetField;
 @property (nonatomic, assign) CGRect defaultTargetFieldFrame;
-@property (nonatomic, strong) IBOutlet UIView *targetProgressView;
+@property (nonatomic, assign) NSInteger count;
+@property (nonatomic, strong) UIPinchGestureRecognizer *pinchRecognizer;
+@property (nonatomic, strong) UISwipeGestureRecognizer *swipeRecognizer;
+@property (nonatomic, strong) UITapGestureRecognizer *tapRecognizer;
 @end
 
 typedef enum
