@@ -6,11 +6,11 @@ Aecount is a simple, gesture-based counter for iPhone. It was created for my wif
 Usage instructions
 ==================
 
-Tap to increment.
-Swipe right to decrement.
-Pinch to reset.
-The upper label is the title of the counter.
-The lower label is the current goal.
+* Tap to increment.
+* Swipe right to decrement.
+* Pinch to reset.
+* The upper label is the title of the counter.
+* The lower label is the current goal.
 
 Things to do
 ============
