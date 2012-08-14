@@ -13,7 +13,6 @@
 @interface AecountAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) AecountViewController *viewController;
 
 @end
