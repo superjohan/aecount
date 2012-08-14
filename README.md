@@ -24,7 +24,7 @@ There are plenty of things one could do to improve Aecount. Here are a few ideas
 Misc
 ====
 
-Aecount requires iOS 5.0. The project uses ARC, and will require Xcode 4.4 soon.
+Aecount requires iOS 5.0. The project uses ARC, and requires Xcode 4.4 or newer.
 
 Aecount uses [CocosDenshion](https://github.com/cocos2d/cocos2d-iphone) for playing audio, and the [Chunk](http://www.theleagueofmoveabletype.com/chunk) typeface by Meredith Mandel. I've included these directly in the repository. If this is a problem, please contact me.
 
