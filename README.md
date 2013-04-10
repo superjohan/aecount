@@ -34,6 +34,8 @@ Links
 
 [Aecount on the App Store](http://itunes.apple.com/us/app/aecount/id523414803?ls=1&mt=8)
 
+[Windows Phone version](https://github.com/superjohan/aecount-windowsphone)
+
 [Aero Deko](http://aerodeko.com)
 
 [Johan (@suprjohan) on Twitter](http://twitter.com/suprjohan)
